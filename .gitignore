@@ -1,0 +1,20 @@
+# Secrets: Strava API keys and tokens
+.env
+
+# Personal data: downloaded activities stay on your machine
+data/00-raw/*
+data/01-interim/*
+data/02-processed/*
+!data/*/.gitkeep
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
